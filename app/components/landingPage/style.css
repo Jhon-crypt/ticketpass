@@ -1,0 +1,13 @@
+.hero-bg{
+    background-color: #6A3CB5;
+  
+}
+.nav-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.text-purple{
+    color: #6A3CB5;
+}
