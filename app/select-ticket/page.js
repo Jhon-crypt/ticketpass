@@ -1,5 +1,4 @@
 import Link from "next/link";
-import Header from "../components/header/header";
 import Footer from "../components/footer/footer";
 
 export default function SelectTicket() {
@@ -16,11 +15,12 @@ export default function SelectTicket() {
 
   return (
     <>
+    <section style={Section}>
+       
       <div>
-        <section style={Section}>
-          <Header />
 
-          <div className="container mt-5 pt-4">
+
+          <div className="container pt-5">
             <h2 class="text-light">Ticket holder information </h2>
           </div>
 
@@ -30,7 +30,7 @@ export default function SelectTicket() {
                 <div class="row g-5">
                   <div class="col-md-6 col-lg-6 order-md-last">
                     <h4 class="d-flex justify-content-between align-items-center mb-3">
-                      <span class="text-primary">Summary</span>
+                      <span class="text-dark">Summary</span>
                       {/* <span class="badge bg-primary rounded-pill">3</span> */}
                     </h4>
                     <span style={Color}>Add discount code</span>
@@ -399,9 +399,11 @@ export default function SelectTicket() {
               </div>
             </div>
           </div>
+          
           <Footer />
-        </section>
+        
       </div>
+      </section>
     </>
   );
 }

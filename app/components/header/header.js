@@ -1,6 +1,11 @@
 export default function Header() {
+    const Color = {
+    backgroundColor: "#6A3CB5",
+  };
+
   return (
-    <><div class="container-fluid">
+
+    <><div class="container-fluid " style={Color}>
           <nav class="navbar navbar-expand-md pt-4">
               <div class="container">
                   <a class="navbar-brand text-dark" href="#">
