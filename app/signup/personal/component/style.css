@@ -35,8 +35,7 @@ height: 40px;
 }
 .account-title{
     color: #6A3CB5;
-    font-feature-settings: 'clig' off, 'liga' off;
-    font-family: Clash Display;
+   
     font-size: 28px;
     font-style: normal;
     font-weight: 600;
