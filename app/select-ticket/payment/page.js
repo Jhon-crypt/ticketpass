@@ -4,7 +4,7 @@ import Footer from "../../components/footer/footer";
 export default function Payment() {
   const Section = {
     background: "#6A3CB5",
-    height: "28rem",
+    height: "20rem",
     borderBottomLeftRadius: "50px", // Adjust the value as needed
     borderBottomRightRadius: "50px", // Adjust the value as needed
   };
@@ -18,10 +18,10 @@ export default function Payment() {
       <section style={Section}>
         <div>
           <div className="container pt-5">
-            <h2 class="text-light">Payment gateway</h2>
+            <h2 class="text-light " data-aos="fade-up">Payment gateway</h2>
           </div>
 
-          <div className="container  mb-4">
+          <div className="container">
             <div className="card bg-light  pe-2 py-2 px-4">
               <div className="container pe-5 py-5 px-4">
                 <div class="row g-5">
@@ -39,39 +39,31 @@ export default function Payment() {
                             Brief description
                           </small> */}
                         </div>
-                        <span class="text-body-secondary">₦12</span>
+                        <span class="text-body-secondary">₦30,000</span>
                       </li>
                       <li class="list-group-item d-flex justify-content-between lh-sm py-3">
                         <div>
-                          <h6 class="my-0">Second product</h6>
+                          <h6 class="my-0">1 x VIP tickets</h6>
                           {/* <small class="text-body-secondary">
                             Brief description
                           </small> */}
                         </div>
-                        <span class="text-body-secondary">₦8</span>
+                        <span class="text-body-secondary">₦50,000</span>
                       </li>
-                      <li class="list-group-item d-flex justify-content-between lh-sm py-3">
-                        <div>
-                          <h6 class="my-0">Third item</h6>
-                          {/* <small class="text-body-secondary">
-                            Brief description
-                          </small> */}
-                        </div>
-                        <span class="text-body-secondary">₦5</span>
-                      </li>
+                      
                       <li class="list-group-item d-flex justify-content-between bg-body-tertiary py-3">
-                        <div class="text-success">
-                          <h6 class="my-0">Promo code</h6>
+                        <div class="text-dark">
+                          <h6 class="my-0">Fees</h6>
                         </div>
-                        <span class="text-success">−₦5</span>
+                        <span class="text-dark">−₦5,000</span>
                       </li>
                       <li class="list-group-item d-flex justify-content-between">
                         <span>Total</span>
-                        <strong>₦20</strong>
+                        <strong>₦85,000</strong>
                       </li>
                     </ul>
 
-                    <button
+                    {/* <button
                       class="w-100 btn btn-secondary btn-lg"
                       type="submit"
                     >
@@ -89,7 +81,7 @@ export default function Payment() {
                           d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"
                         />
                       </svg>
-                    </button>
+                    </button> */}
                   </div>
                   <div class="col-md-6 col-lg-6">
                     <h4 style={Color}>Your ticket has been reserved</h4>
