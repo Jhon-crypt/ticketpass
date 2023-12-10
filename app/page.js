@@ -22,8 +22,9 @@ export default function SelectTicket() {
       <div>
         <section style={Section}>
           <Header />
-          <div className="heroImg" style={{ backgroundImage: "url('headerImg.png')"}}>
-            <div className="container mt-3 pt-3">
+          
+          <div className="heroImg container" style={{ backgroundImage: "url('headerImg.png')"}}>
+            <div className=" mt-3 pt-3">
               <main className='pb-3'>
                   <h1 className="visually-hidden">Heroes examples</h1>
 
@@ -41,11 +42,12 @@ export default function SelectTicket() {
               </main>
             </div>
           </div>
+          
          
 
           
             <div className="container pt-5 pb-5" id="custom-cards">
-              <h2 className="pb-2 border-bottom text-purple features-title text-center">What's Popping</h2>
+              <h2 className="pb-2 pt-3 border-bottom text-purple features-title text-center">What's Popping</h2>
 
               <div className="row row-cols-1 row-cols-lg-3 align-items-stretch g-2">
                 <div className="col col-md-6" style={{height: "400px", }} >
@@ -60,6 +62,29 @@ export default function SelectTicket() {
                     >
                   </div>
                 </div>
+                {/* <div className="col col-md-6" style={{height: "400px", }} >
+                  <div
+                      className="overflow-hidden rounded-4 p-0 m-0"
+                      style={{
+                        height: "100%",
+                        backgroundImage: "url('eventImg.png')",
+                        backgroundSize: "100% 100%",
+                        backgroundRepeat: "no-repeat",
+                      }}
+                    >
+                      <div className="px-4 py-5 my-5 text-center">
+                      
+                        <h1 className="display-5 hero-title fw-bold text-white">Event</h1>
+                        <div className="col-lg-9 mb-3 mx-auto">
+                            <p className="hero-content mb-4 text-white">New offers daily, would you like to get notified?</p>
+                            <div className="d-grid gap-2 d-sm-flex justify-content-sm-center">
+                                
+                                <button type="button" className="btn btn-outline-light btn-lg hero-btn2 px-4">Create an event</button>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                </div> */}
 
 
 

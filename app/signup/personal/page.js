@@ -1,6 +1,6 @@
 
 // import Link from "next/link"
-// import './component/style.css'
+import './component/style.css'
 
 export default function PersonalSignUp() {
 
