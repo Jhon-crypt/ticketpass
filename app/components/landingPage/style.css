@@ -1,0 +1,121 @@
+
+.nav-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.text-purple{
+    color: #6A3CB5;
+}
+.lead{
+    width: 100%;
+    
+}
+.hero-title{
+    color: #FFF;
+text-align: center;
+
+
+font-style: normal;
+font-weight: 600;
+/* line-height: 96px; 114.286% */
+}
+.heroImg{
+    /* background-image: url('sport_img.png'); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+.hero-btn{
+    color: #6A3CB5;
+text-align: center;
+font-feature-settings: 'clig' off, 'liga' off;
+
+/* Button/Medium */
+font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: 32px; /* 177.778% */
+letter-spacing: -0.2px;
+}
+.hero-btn2{
+    color: #FAFAFA;
+text-align: center;
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: 32px; /* 177.778% */
+}
+.hero-content{
+    color: #E9E9E9;
+text-align: center;
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 133.333% */
+}
+.browse-div{
+    display: inline-flex;
+padding: 12px 20px;
+justify-content: center;
+align-items: center;
+gap: 4px;
+}
+.browse-div button{
+    color: #6A3CB5;
+text-align: center;
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: 32px; /* 177.778% */
+}
+#browseButton:hover .browse-arrow {
+    filter: brightness(0) invert(1);
+  }
+.features-title{
+    color: #6A3CB5;
+    text-align: center;
+    
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;  
+}
+.poppingImg{
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-image: url("vector.png"); */
+    width: 100%;
+    position: absolute;
+    height: 140px;
+    top: 30%;
+    z-index: -1;
+   
+}
+.browseAll{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-outline-purple {
+    color: #6A3CB5;
+    border-color: #6A3CB5;
+  }
+
+  .btn-outline-purple:hover {
+    color: #fff; /* Text color on hover */
+    background-color: #6A3CB5; /* Background color on hover */
+    border-color: #6A3CB5;
+  }
+  .card{
+    padding: 0 !important;
+    margin: 0 !important;
+  }
