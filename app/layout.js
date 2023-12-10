@@ -1,5 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import BootstrapClientJs from "./components/bootstrapJsClient/bootstrapClient"
+
 import Head from 'next/head';
 
 export const metadata = {
