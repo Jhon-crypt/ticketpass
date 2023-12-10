@@ -1,3 +1,4 @@
+import './component/style.css'
 export const metadata = {
     title: 'Business Signup | Ticket Pass',
     description: 'Digitizing Tickets On The Blockchain',
@@ -6,7 +7,7 @@ export const metadata = {
   export default function BusinessAccountLayout({ children }) {
     return (
       <html lang="en">
-        <body>{children}</body>
+        <body style={{ backgroundImage: "url('/businessBG.png')"}}>{children}</body>
       </html>
     )
   }
