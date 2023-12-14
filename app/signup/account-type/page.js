@@ -75,8 +75,12 @@ export default function AccountType() {
                                                 />
                                             </div>
                                         </div>
-                                        <div className="pt-3">
-                                            <img src="/individualImg.png" className="imgStyle" alt="Individual" />
+                                        
+                                        <div className="pt-3 accountImg">                 
+                                            <img src="/IndividualImg.jpeg" className="imgStyle"/>
+                                            <div className="accountImg-content" style={{ position: "" }}>
+                                                <a href="#">Learn about Individual</a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -96,8 +100,11 @@ export default function AccountType() {
                                                 />
                                             </div>
                                         </div>
-                                        <div className="pt-3">
-                                            <img src="/businessImg.png" className="imgStyle" alt="Business" />
+                                        <div className="pt-3 accountImg">                 
+                                            <img src="/businessImg.jpeg" className="imgStyle"/>
+                                            <div className="accountImg-content" style={{ position: "" }}>
+                                                <a href="#">Learn about business</a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
