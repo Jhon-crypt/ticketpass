@@ -22,7 +22,7 @@ export default function Payment() {
           </div>
 
           <div className="container">
-            <div className="card bg-light  pe-2 py-2 px-4">
+            <div className="card bg-light  pe-5 py-5 px-4">
               <div className="container pe-5 py-5 px-4">
                 <div class="row g-5">
                   <div class="col-md-6 col-lg-6 order-md-last">
@@ -298,8 +298,12 @@ export default function Payment() {
               </div>
             </div>
           </div>
-          <Footer />
+         
         </div>
+
+
+        <Footer />
+        
       </section>
     </>
   );
