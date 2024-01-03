@@ -1,0 +1,93 @@
+.body{
+    margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+
+}
+.accountImg, .imgStyle, body {
+   
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+
+}
+.credit-flex{
+    display: flex;
+justify-content: space-between;
+align-items: center;
+align-self: stretch;
+}
+.creditContent{
+    color: #282828;
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: 32px; /* 160% */
+letter-spacing: -0.4px;
+}
+.creditImg{
+    width: 50px;
+height: 40px;
+}
+.account-title{
+    color: #6A3CB5;
+    
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 48px; /* 150% */
+    letter-spacing: -0.4px;
+    /* align-self: stretch; */
+}
+.account-setup{
+    color: #3D3D3D;
+font-feature-settings: 'clig' off, 'liga' off;
+
+/* Text/16px/Regular */
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+}
+.cre-account{
+    color: #6A3CB5;
+font-feature-settings: 'clig' off, 'liga' off;
+
+/* Text/16px/Semibold */
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 26px;
+text-decoration: none;
+}
+.user-info{
+    color: #282828;
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 24px; /* 150% */
+margin-left: 10px;
+}
+.btn-purple{
+    background-color: #6A3CB5;
+}
+.next-btn{
+    display: flex;
+padding: 16px;
+justify-content: center;
+align-items: center;
+gap: 8px;
+align-self: stretch;
+border-radius: 6px;
+background: #6A3CB5;
+color: #fff;
+border: #6A3CB5;
+}
