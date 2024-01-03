@@ -10,7 +10,7 @@ export default function Header() {
               <div class="container">
                   <a class="navbar-brand text-dark" href="#">
 
-                      <img src="./logo.png" />
+                      <img src="https://res.cloudinary.com/db7wwc9ex/image/upload/v1702233547/logo_ektonr.png" />
 
                   </a>
 
