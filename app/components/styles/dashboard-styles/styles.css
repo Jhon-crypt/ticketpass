@@ -1,0 +1,123 @@
+.bi {
+  display: inline-block;
+  width: 1rem;
+  height: 1rem;
+}
+
+@media (min-width: 768px) {
+  .sidebar .offcanvas-lg {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 48px;
+  }
+  .navbar-search {
+    display: block;
+  }
+}
+
+.sidebar .nav-link {
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+.sidebar .nav-link.active {
+  color: #2470dc;
+}
+
+.sidebar-heading {
+  font-size: 0.75rem;
+}
+
+/*
+ * Navbar
+ */
+
+.navbar-brand {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  color: black;
+}
+
+.navbar .form-control {
+  padding: 0.75rem 1rem;
+}
+
+#dashboard-nav-flex {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 32px;
+}
+
+#dashboard-user-profile-chip {
+  padding: 4px 7px;
+  border-radius: 24px;
+  color: #fff;
+}
+
+#dashboard_sidebar_header {
+  color: #9d9fa1;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px; /* 166.667% */
+}
+
+#business_dashboard_banner {
+  padding: 32px;
+  border-radius: 16px;
+  background: #6a3cb5;
+}
+
+#business_dashboard_banner_text_header {
+  color: #fff;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 34px; /* 121.429% */
+  letter-spacing: -0.6px;
+}
+
+#business_dashboard_banner_text_lead {
+  color: #fff;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px; /* 157.143% */
+}
+
+#business_dashboard_banner_button {
+  display: flex;
+  width: 153px;
+  padding: 12px 28px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 8px;
+  background: #fff;
+}
+
+#business_dashboard_banner_button_text {
+  color: #6a3cb5;
+  text-align: center;
+
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px; /* 175% */
+  letter-spacing: -0.2px;
+}
+
+#buisness_dashboard_stats_cards {
+  display: flex;
+  padding: 20px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  flex: 1 0 0;
+  border-radius: 12px;
+  background: #fff;
+
+  /* Shadow/01 */
+  box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.06);
+}

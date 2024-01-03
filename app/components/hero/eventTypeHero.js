@@ -1,4 +1,4 @@
-export default function EventTypeHero() {
+export default function EventTypeHero(props) {
 
     return (
 
@@ -6,7 +6,7 @@ export default function EventTypeHero() {
 
             <div class="px-4 pt-5 pt-10 text-center">
                 <br /><br /><br />
-                <h1 class="display-5 fw-bold text-light" style={{ fontSize: "84px" }}>Events</h1>
+                <h1 class="display-5 fw-bold text-light" style={{ fontSize: "84px" }}>{props.title}</h1>
                 <div class="col-lg-6 mx-auto">
 
                     <div class="input-group input-group-lg mb-3">

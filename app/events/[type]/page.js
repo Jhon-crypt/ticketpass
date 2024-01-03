@@ -1,6 +1,10 @@
 import EventTypeHero from '../../components/hero/eventTypeHero'
 import CustomeHeader from '../../components/header/customHeader'
 import FeaturedSection from '@/app/components/section/featuredSection';
+import PopularDemandSection from '@/app/components/section/popularDemanSection';
+import OnlineEventsSection from '@/app/components/section/onlineEventsSections';
+import FreeEventsSection from '@/app/components/section/freeEventsSection';
+import '../../components/styles/events-style/style.css'
 
 export default function Events({ params }) {
 
@@ -19,11 +23,17 @@ export default function Events({ params }) {
 
                 <CustomeHeader />
 
-                <EventTypeHero />
+                <EventTypeHero title={params.type}/>
 
             </section>
 
-            <FeaturedSection />
+            <FeaturedSection title={params.type}/>
+
+            <PopularDemandSection />
+
+            <OnlineEventsSection />
+
+            <FreeEventsSection />
 
         </>
 
