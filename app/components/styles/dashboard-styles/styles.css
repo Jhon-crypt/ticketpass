@@ -121,3 +121,40 @@
   /* Shadow/01 */
   box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.06);
 }
+
+#buisness_dashboard_stats_card_lead_text {
+  color: #3d3d3d;
+  /* Text/16px/Regular */
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+}
+
+#buisness_dashboard_stats_card_header {
+  color: #282828;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 40px; /* 153.846% */
+}
+
+#buisness_dashboard_stats_cards_footer_badge {
+  padding: 2px 10px;
+  border-radius: 100px;
+  background: #dcfff5;
+  color: #198754;
+  text-align: center;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px; /* 166.667% */
+}
+
+#buisness_dashboard_stats_cards_footer_text {
+  color: #9d9fa1;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px; /* 166.667% */
+}

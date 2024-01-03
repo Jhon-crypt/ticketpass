@@ -1,4 +1,5 @@
 import BuisnessDashboardStatsCards from "../cards/buisnessDashboardStatsCards"
+import EventInventoryCard from "../cards/eventInventoryCard"
 
 export default function BuisnessDashboardSection() {
 
@@ -24,6 +25,11 @@ export default function BuisnessDashboardSection() {
             </div>
 
             <BuisnessDashboardStatsCards />
+
+            <EventInventoryCard />
+
+            <br /><br /><br /><br /><br /> 
+            <br /><br /><br /><br /><br /> 
 
         </>
 
