@@ -2,7 +2,7 @@ import DashboardHeader from '../components/header/dashbaordHeader'
 import DashbaordSidebar from '../components/header/dashboardSidebar'
 import '../components/styles/dashboard-styles/styles.css'
 
-export default function CreateTicketsDashboard() {
+export default function CreateEventsDashboard() {
 
     return (
 
