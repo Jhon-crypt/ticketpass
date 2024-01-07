@@ -1,13 +1,24 @@
-export default function EventInventoryCard(){
+import EventInventoryTable from "../tables/eventInventoryTable"
+
+export default function EventInventoryCard() {
 
     return (
 
         <>
 
-            <div className="card border border-0">
-                <div className="card-header">
-                    <p>John</p>
+            <div id="event_inventory_card" className="card border border-0">
+
+                <div class="ps-2 pe-2 pt-3 d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center">
+                    <p id="event_inventory_card_text_header">My Inventory</p>
+                    <p>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <path d="M11 11.9997C11 12.2649 11.1054 12.5193 11.2929 12.7068C11.4804 12.8943 11.7348 12.9997 12 12.9997C12.2652 12.9997 12.5196 12.8943 12.7071 12.7068C12.8946 12.5193 13 12.2649 13 11.9997C13 11.7345 12.8946 11.4801 12.7071 11.2926C12.5196 11.1051 12.2652 10.9997 12 10.9997C11.7348 10.9997 11.4804 11.1051 11.2929 11.2926C11.1054 11.4801 11 11.7345 11 11.9997ZM11 18.9997C11 19.2649 11.1054 19.5193 11.2929 19.7068C11.4804 19.8943 11.7348 19.9997 12 19.9997C12.2652 19.9997 12.5196 19.8943 12.7071 19.7068C12.8946 19.5193 13 19.2649 13 18.9997C13 18.7345 12.8946 18.4801 12.7071 18.2926C12.5196 18.1051 12.2652 17.9997 12 17.9997C11.7348 17.9997 11.4804 18.1051 11.2929 18.2926C11.1054 18.4801 11 18.7345 11 18.9997ZM11 4.99969C11 5.26491 11.1054 5.51926 11.2929 5.7068C11.4804 5.89434 11.7348 5.99969 12 5.99969C12.2652 5.99969 12.5196 5.89434 12.7071 5.7068C12.8946 5.51926 13 5.26491 13 4.99969C13 4.73448 12.8946 4.48012 12.7071 4.29259C12.5196 4.10505 12.2652 3.99969 12 3.99969C11.7348 3.99969 11.4804 4.10505 11.2929 4.29259C11.1054 4.48012 11 4.73448 11 4.99969Z" stroke="#9D9FA2" stroke-width="1.38462" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </p>
                 </div>
+
+                <EventInventoryTable />
+
             </div>
 
         </>

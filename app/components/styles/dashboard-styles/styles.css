@@ -158,3 +158,30 @@
   font-weight: 600;
   line-height: 20px; /* 166.667% */
 }
+
+#event_inventory_card {
+  box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.06);
+}
+
+#event_inventory_card_text_header {
+  color: #282828;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px; /* 162.5% */
+}
+
+#event_inventory_table_header {
+  color: #282828;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22px; /* 157.143% */
+}
+
+#event_table_media_object {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow:ellipsis;
+  width:20px;
+}
