@@ -18,7 +18,7 @@ export default function Events({ params }) {
     return (
 
         <>
-
+            
             <section style={Section}>
 
                 <CustomeHeader />

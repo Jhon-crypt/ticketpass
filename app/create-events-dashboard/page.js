@@ -24,9 +24,20 @@ export default function CreateEventsDashboard() {
 
                     <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4" style={{ backgroundColor: "#F2F4F7" }}>
 
-                        {/*}
-                            Your page component here
-                        {*/}
+                        <div class="blankslate">
+                            <img class="blankslate-top-img" src="/images/blankslate/1.png" />
+                            <div class="blankslate-body">
+                                <h4>You don't have access to this issue</h4>
+                                <p>
+                                    Make sure the issue exists in this project. If it does, ask a project
+                                    admin for permission to see the project's issues.
+                                </p>
+                            </div>
+                            <div class="blankslate-actions">
+                                <button class="btn btn-default" type="button">Secondary action</button>
+                                <button class="btn btn-primary" type="button">Primary action</button>
+                            </div>
+                        </div>
 
                     </main>
 
