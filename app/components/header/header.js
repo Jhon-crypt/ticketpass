@@ -45,7 +45,7 @@ export default function Header() {
 
                       </ul>
 
-                      <div class="col-md-2 text-end">
+                      <div class="col-md-2 text-center">
                           <button type="button" class="btn btn-outline-light me-2">Create Event</button>
 
                       </div>
