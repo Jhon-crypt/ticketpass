@@ -9,7 +9,7 @@ export default function EmptyEventSection() {
                 <h1 class="display-5 fw-bold" id="empty_event_text_heading">Create your first event</h1>
                 <div class="col-lg-6 mx-auto">
                     <p class="lead mb-4" id="empty_event_text_lead">Create your first event to get started.</p>
-                    <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+                    <div class="d-grid gap-2 d-sm-flex justify-content-sm-center align-items-center">
                         <button type="button" class="border border-0" id="empty_event_button">
                             <span>
                                 Create event
