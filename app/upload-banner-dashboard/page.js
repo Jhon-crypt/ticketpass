@@ -1,5 +1,7 @@
 import DashboardHeader from '../components/header/dashbaordHeader'
 import DashbaordSidebar from '../components/header/dashboardSidebar'
+import UploadBannerForm from '../components/forms/uploadBannerForm'
+import '../components/styles/uploadBannerStyle/style.css'
 import '../components/styles/dashboard-styles/styles.css'
 
 export default function UploadEventBanner() {
@@ -24,9 +26,7 @@ export default function UploadEventBanner() {
 
                     <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4" style={{ backgroundColor: "#F2F4F7" }}>
 
-                        {/*}
-                            Your page component here
-                        {*/}
+                        <UploadBannerForm />
 
                     </main>
 
