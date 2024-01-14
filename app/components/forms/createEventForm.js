@@ -4,7 +4,7 @@ export default function CreateEventForm() {
 
         <>
 
-            <div className="mt-5 mb-3" id="create_event_form_card">
+            <div className="card py-4 px-4 border-0 mt-4 mb-4" id="create_event_form_card">
 
                 <div class="clearfix">
                     <span class="float-start">

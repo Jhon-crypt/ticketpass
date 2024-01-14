@@ -1,7 +1,7 @@
 export default function UploadBannerForm() {
   return (
     <>
-      <div className="card py-4 px-4 border-0 mt-4 mb-4" id="upload-container">
+      <div className="card py-4 px-4 border-0 mt-4 mb-4" id="upload-container2">
         <div class="clearfix">
           <span class="float-end">
             <div id="form_number">2/3</div>
