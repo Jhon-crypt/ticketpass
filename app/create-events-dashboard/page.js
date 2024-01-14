@@ -24,7 +24,7 @@ export default function CreateEventsDashboard() {
                         nav_item_color5="black"
                     />
 
-                    <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4" style={{ backgroundColor: "#F2F4F7" }}>
+                    <main class="col-md-9 height-container ms-sm-auto col-lg-10 px-md-4 h-100" style={{ backgroundColor: "#F2F4F7" }}>
 
                         <CreateEventForm />
 

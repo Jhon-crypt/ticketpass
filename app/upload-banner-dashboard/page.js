@@ -1,9 +1,8 @@
 import DashboardHeader from '../components/header/dashbaordHeader'
 import DashbaordSidebar from '../components/header/dashboardSidebar'
 import UploadBannerForm from '../components/forms/uploadBannerForm'
-import '../components/styles/uploadBannerStyle/style.css'
 import '../components/styles/dashboard-styles/styles.css'
-
+import '../components/styles/uploadBannerStyle/style.css'
 export default function UploadEventBanner() {
 
     return (
@@ -24,7 +23,7 @@ export default function UploadEventBanner() {
                         nav_item_color5="black"
                     />
 
-                    <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4" style={{ backgroundColor: "#F2F4F7" }}>
+                    <main class="col-md-9 height-container ms-sm-auto col-lg-10 px-md-4 h-100" style={{ backgroundColor: "#F2F4F7" }}>
 
                         <UploadBannerForm />
 
