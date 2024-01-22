@@ -7,7 +7,7 @@ export default function Footer() {
     Questions or enquiries? Send us a message <br></br> You can also call us on +234 XXX XXX XXXX 👋
     </div>
    
-    <p class="text-right text-light">&copy; 2023 Company, Inc</p>
+    <p class="text-right text-light">&copy; 2024 Company, Inc</p>
   </footer>
 </div>
 
