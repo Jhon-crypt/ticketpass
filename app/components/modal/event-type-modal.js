@@ -4,7 +4,7 @@ export default function EventTypeModal() {
 
         <>
 
-            <div class="modal" id="myModal">
+            <div class="modal" id="eventTypeModal">
                 <div class="modal-dialog">
                     <div class="modal-content">
 

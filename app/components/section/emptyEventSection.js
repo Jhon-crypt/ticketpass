@@ -1,4 +1,4 @@
-import Link from "next/link"
+import EventTypeModal from "../modal/event-type-modal"
 
 export default function EmptyEventSection() {
 
@@ -24,6 +24,8 @@ export default function EmptyEventSection() {
                         </button>
                     </div>
                 </div>
+
+                <EventTypeModal />
             </div>
 
         </>
