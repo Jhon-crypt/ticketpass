@@ -1,3 +1,5 @@
+import Link from "next/link"
+
 export default function EmptyEventSection() {
 
     return (
@@ -10,8 +12,8 @@ export default function EmptyEventSection() {
                 <div class="col-lg-6 mx-auto">
                     <p class="lead mb-4" id="empty_event_text_lead">Create your first event to get started.</p>
                     <div class="d-grid gap-2 d-sm-flex justify-content-sm-center align-items-center">
-                        <button type="button" class="border border-0" id="empty_event_button">
-                            <span>
+                        <button type="button" class="border border-0 text-deocration-none" id="empty_event_button" data-bs-toggle="modal" data-bs-target="#eventTypeModal">
+                            <span className="text-decoartion-none">
                                 Create event
                             </span>
                             <span>
