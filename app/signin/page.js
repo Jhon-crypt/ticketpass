@@ -1,16 +1,25 @@
-import Link from "next/link"
+import Header from "../components/header/header"
+import SigninSection from "../components/section/signinSection";
 
 export default function SignIn() {
+
+    const Section = {
+        background: "#6A3CB5",
+        height: "100%",
+    };
 
     return (
 
         <>
 
-            <div className="container mt-5">
-                <h1>Sign in</h1>
-                <p className="lead">
-                    <Link href="/signup/account-type">Go to sign Up</Link>
-                </p>
+            <div>
+                <section style={Section}>
+                    <Header />
+                    <div className="container px-5" style={{ backgroundImage: "url('https://res.cloudinary.com/db7wwc9ex/image/upload/v1708033865/headerImg_md8vpx.png')" }}>
+                        <SigninSection />
+                    </div>
+                    <br />
+                </section>
             </div>
 
         </>

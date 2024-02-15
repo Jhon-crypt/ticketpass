@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Header() {
     const Color = {
     backgroundColor: "#6A3CB5",
@@ -46,8 +48,7 @@ export default function Header() {
                       </ul>
 
                       <div class="col-md-2 text-center">
-                          <button type="button" class="btn btn-outline-light me-2">Create Event</button>
-
+                          <Link href="/signup/account-type" type="button" class="text-decoration-none btn btn-outline-light me-2">Create Event</Link>
                       </div>
 
                   </div>

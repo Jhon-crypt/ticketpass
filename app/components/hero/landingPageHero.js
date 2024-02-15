@@ -6,7 +6,7 @@ export default function LandingPageHero() {
 
         <>
 
-            <div className="heroImg container" style={{ backgroundImage: "url('headerImg.png')" }}>
+            <div className="heroImg container" >
                 <div className=" mt-3 pt-3">
                     <main className='pb-3'>
                         <div className="px-4 my-5 text-center">

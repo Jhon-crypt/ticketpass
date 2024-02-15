@@ -1,4 +1,4 @@
-// import Link from "next/link"
+import Link from "next/link"
 import './component/style.css'
 
 export default function BusinessSignUp() {
@@ -57,7 +57,7 @@ export default function BusinessSignUp() {
                             <label for="floatingPassword">Repeat Password</label>
                         </div>
                         
-                        <button className="w-100 next-btn text-white" type="submit">Next</button>
+                        <Link href="/signin" className="text-decoration-none w-100 next-btn text-white" type="submit">Next</Link>
                         </form>
                     </div>
                     </div>
