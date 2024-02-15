@@ -6,7 +6,13 @@ import OnlineEventsSection from '@/app/components/section/onlineEventsSections';
 import FreeEventsSection from '@/app/components/section/freeEventsSection';
 import '../../components/styles/events-style/style.css'
 
+export function generateStaticParams() {
+    return [{ type: '1' }]
+}
+
 export default function Events({ params }) {
+
+    const { type } = params
 
     const Section = {
         backgroundImage: "url('/eventType.png')",
@@ -23,11 +29,11 @@ export default function Events({ params }) {
 
                 <CustomeHeader />
 
-                <EventTypeHero title={params.type}/>
+                <EventTypeHero title={type}/>
 
             </section>
 
-            <FeaturedSection title={params.type}/>
+            <FeaturedSection title={type}/>
 
             <PopularDemandSection />
 
