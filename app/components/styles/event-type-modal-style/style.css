@@ -1,0 +1,15 @@
+#phsyical-card{
+    border: none;
+}
+
+#phsyical-card:hover{
+    border: 1px solid #6A3CB5;
+}
+
+#online-card{
+    border: none;
+}
+
+#online-card:hover{
+    border: 1px solid #6A3CB5; 
+}

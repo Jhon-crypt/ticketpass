@@ -1,7 +1,17 @@
+"use client"
 import PhysicalEventSvg from "../svg-components/physicalEventSvg"
 import OnlineEventSvg from "../svg-components/onlineEventSvg"
+import '../styles/event-type-modal-style/style.css'
+import { useRouter } from "next/navigation"
 
 export default function EventTypeModal() {
+
+    const router = useRouter();
+
+    const redirect = () => {
+        router.push("/create-events-dashboard/create-event")
+    };
+
 
     return (
 
@@ -22,7 +32,7 @@ export default function EventTypeModal() {
                                 <div className="row">
                                     <div className="col mb-3">
                                         <div className="d-flex align-content-center justify-content-center">
-                                            <div className="card shadow border-0" style={{ width: "300px" }}>
+                                            <div id="phsyical-card" className="card shadow" style={{ width: "300px" }} onClick={redirect} data-bs-dismiss="modal">
                                                 <div className="card-body text-start">
                                                     <h3>Physical</h3>
                                                     <p className="physical-event-type">
@@ -40,7 +50,7 @@ export default function EventTypeModal() {
                                     <br /><br />
                                     <div className="col">
                                         <div className="d-flex align-content-center justify-content-center">
-                                            <div className="card shadow border-0 pb-2" style={{ width: "300px" }}>
+                                            <div id="online-card" className="card shadow pb-2" style={{ width: "300px" }} onClick={redirect} data-bs-dismiss="modal">
                                                 <div className="card-body text-start">
                                                     <h3>Online</h3>
                                                     <p>
