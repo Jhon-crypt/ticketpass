@@ -4,7 +4,7 @@ export default function CreateTicketsForm() {
         <div className="card py-4 px-4 border-0 mt-4 mb-4" id="create-ticket-container2">
           <div class="clearfix">
             <span class="float-end">
-              <div id="form_number">1/3</div>
+              <div id="form_number">3/4</div>
             </span>
   
             <h2>Create tickets</h2>

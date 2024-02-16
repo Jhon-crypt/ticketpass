@@ -1,10 +1,12 @@
+import Link from "next/link";
+
 export default function UploadBannerForm() {
   return (
     <>
       <div className="card py-4 px-4 border-0 mt-4 mb-4" id="upload-container2">
         <div class="clearfix">
           <span class="float-end">
-            <div id="form_number">2/3</div>
+            <div id="form_number">2/4</div>
           </span>
 
           <h2>Upload a banner image to continue</h2>
@@ -47,7 +49,7 @@ export default function UploadBannerForm() {
           </div>
         </div>
 
-        <button class="btn py-2 me-2 ms-2 mt-4" id="btn" type="button">
+        <Link href="/create-tickets-dashboard" class="btn py-2 me-2 ms-2 mt-4 text-decoration-none" id="btn">
           Continue{" "}
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -62,7 +64,7 @@ export default function UploadBannerForm() {
               d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"
             />
           </svg>
-        </button>
+        </Link>
       </div>
     </>
   );
