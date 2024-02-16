@@ -3,7 +3,7 @@ export const metadata = {
     description: 'Ticket',
   }
   
-  export default function EventsLayout({ children }) {
+  export default function BuisnessLayout({ children }) {
   
   
     return (
