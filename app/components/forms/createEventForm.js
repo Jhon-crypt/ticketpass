@@ -179,7 +179,7 @@ export default function CreateEventForm() {
                 </div>
 
                 <div class="d-grid mt-4">
-                    <Link href="/upload-banner-dashboard" class="btn btn-block text-white" style={{ background: "#7F6AA0" }}>
+                    <Link href="/upload-banner-dashboard" class="btn btn-block text-white" style={{ background: "#6A3CB5" }}>
                         Continue
                         <span className="ms-1">
                             <svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" viewBox="0 0 25 24" fill="none">

@@ -228,6 +228,26 @@
   letter-spacing: -0.2px;
 }
 
+#empty_event_button2 {
+  display: flex;
+  width: 180px;
+  padding: 12px 28px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 8px;
+  background: white;
+  border: 2px solid #6A3CB5;
+  color: #6A3CB5;
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: -0.2px;
+}
+
 
 #create_event_form_card {
   padding: 32px 24px;
